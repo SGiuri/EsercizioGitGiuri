@@ -1,0 +1,14 @@
+comandi GIT:
+1) configurazione (da fare solo la prima volta dal pc):
+	git config --global user.name "nome"
+	git config --global user.email "email"
+	git config --global color.ui auto
+2) caricamento file su git stage e commit
+	git status #per vedere la situazione attuale
+	git add nomeFile o . par aggiungere alla stage area il file o tutti i file modificati
+	git commit -m "messaggio da inviare al commit"
+	git log #
+3)  upload su cartella remota github con repository online
+	git remote add origin https...(indirizzo di github)
+	git push -u origin master
+	
